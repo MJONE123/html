@@ -1,0 +1,32 @@
+<body>
+    <table border="1">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+        </tr>
+    </table>
+    <script>
+        // 일괄적으로 각 요소들에게 특정한 능력을 부여하는 식. 예를 들어 모든 버튼을 누르면 경고창이뜸
+        const tds = 
+            document.querySelectorAll('td')
+        for (td in tds) {
+            tds [td].addEventListener(
+                'click', () =>{alert(tds[td].textContent)})
+        }
+
+    </script>
+</body>

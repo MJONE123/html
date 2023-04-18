@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>페이지 타이틀</title>
+    <link rel="shortcut icon"
+    href="http://ggoreb.com/logo.jpg">
+    <!-- 한글깨짐처리 -->
+    <meta property="og:image"
+    content="http://ggoreb.com/images/luffy.jpg">
+    <meta charset="utf8">
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid rgb(218, 0, 0);
+        
+            border-collapse: collapse;}
+    </style>
+    </head>
+
+<body>
+        <table>
+            <tr>
+                <td rowspan="3">번호</td>
+                <td colspan="2">이름</td>
+                <td>점수</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <!-- 클릭하면 헬로라고 뜸 -->
+                <td onclick="alert('hello')">김</td>  
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>이</td>
+                <td>90</td>
+            </tr>
+
+        </table>
+    <img src="sun.jpg" alt="태양사진" 
+    onerror="this.src = 'error.png'">
+    <a href="http://cafe.naver.com">이동</a>
+    <a href="연습1.html">이동</a>
+
+    <img src="luffy.jpg" width="50%" height="300px">
+    <h1>😊헤딩</h1>
+    <h1 style="font-size:60px;">폰트 사이즈 조절</h1>
+
+    <h3>질풍가도</h3>
+    <iframe src="https://www.youtube.com/embed/5Gem36OUeSw">
+    </iframe>
+
+    <!-- 수평선 표시 hr -->
+    <hr> 
+    <p>나의 첫 번째 파라그래프. </p> <p>한글</p>
+    <p>한줄</p>
+    <p>한줄</p>
+    <span>단어1</span>
+    <span>단어2</span>
+    <p>
+        <!-- 줄바꿈 br -->
+            첫번째<br>
+            <!-- &nbsp; 한번에 한칸씩 띄어쓰기 -->
+            두 &nbsp;번&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;째
+    </p>
+</body>
+
+</html>
